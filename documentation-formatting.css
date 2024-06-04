@@ -1,0 +1,60 @@
+:root {
+    /*Dark*/
+    /*--color: #fff;
+    --background: #1d2126;
+    --pre: #171b1f;*/
+    
+    /*Light*/
+    --color: #111;
+    --background: #fff;
+    --pre: #ebebf0;
+  }
+
+  *{
+    padding-top: 3px;
+    width:600px;
+    font-family: Arial, Helvetica;
+    margin: auto;
+    padding: auto;
+    background: var(--background);
+    color: var(--color);
+  }
+
+  html {
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-top: 40px;
+  }
+
+  *:not(pre){
+    white-space: pre-wrap;
+  }
+
+  pre {
+    background-color: var(--pre);
+    padding: 15px;
+    font-family: Cambria, Cochin, 'Times New Roman';
+    overflow-x: auto;
+  }
+
+  ::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #454552;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 700px){
+    * {
+      width: 96%;
+    }
+  }
